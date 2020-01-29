@@ -24,6 +24,7 @@ const printWishList = () => {
   console.log(`I can purchase ${enterThing.value} at ${enterPlace.value}.`);
 };
 
+
 document
   .getElementById("saveWishList")
   .addEventListener("click", () => printWishList());
